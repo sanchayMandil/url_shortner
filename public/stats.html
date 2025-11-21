@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Stats</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 p-6 min-h-screen">
+
+  <div class="max-w-lg mx-auto bg-white shadow-md rounded-lg p-6">
+
+    <h1 class="text-2xl font-bold mb-4">Short Link Stats</h1>
+
+    <div class="space-y-2">
+      <p><strong>Code:</strong> <span id="code"></span></p>
+      <p><strong>URL:</strong> <span id="url"></span></p>
+      <p><strong>Clicks:</strong> <span id="clicks"></span></p>
+      <p><strong>Created:</strong> <span id="created"></span></p>
+      <p><strong>Last Clicked:</strong> <span id="last"></span></p>
+    </div>
+
+    <a href="/" class="mt-5 inline-block bg-blue-600 text-white px-4 py-2 rounded">Back</a>
+
+  </div>
+
+<script src="/js/stats.js"></script>
+</body>
+</html>
